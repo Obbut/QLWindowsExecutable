@@ -46,18 +46,7 @@ func extractWindowsIcon(file: NSURL) -> NSImage? {
         let imageData = imgRep.representationUsingType(NSBitmapImageFileType.NSPNGFileType, properties: [String : AnyObject]())
         
         QLThumbnailRequestSetImageWithData(thumbnail, imageData, nil);
-        
-//        
-//        // Hand memory over to ARC
-//        var cgContext = _cgContext.takeRetainedValue()
-//        _cgContext.release()
-//        
-//        let context = NSGraphicsContext(graphicsPort: &cgContext, flipped: true)
-//        NSGraphicsContext.setCurrentContext(context)
-//        image.drawInRect(NSRect(x: 0, y: 0, width: image.size.width, height: image.size.height))
-//        
-//        QLThumbnailRequestFlushContext(thumbnail, cgContext)
-        
+ 
         return noErr
     }
 }
