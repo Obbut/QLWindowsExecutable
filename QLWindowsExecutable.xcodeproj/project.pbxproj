@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */; };
+		F264CE0E1B4181F300BFD076 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */; };
+		F264CE101B4181F300BFD076 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0F1B4181F300BFD076 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F264CE081B4181F300BFD076 /* QLWindowsExecutable.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLWindowsExecutable.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		F264CE0F1B4181F300BFD076 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F264CE111B4181F300BFD076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F264CE041B4181F300BFD076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F264CDFE1B4181F300BFD076 = {
+			isa = PBXGroup;
+			children = (
+				F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */,
+				F264CE091B4181F300BFD076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F264CE091B4181F300BFD076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F264CE081B4181F300BFD076 /* QLWindowsExecutable.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */ = {
+			isa = PBXGroup;
+			children = (
+				F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */,
+				F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */,
+				F264CE0F1B4181F300BFD076 /* main.c */,
+				F264CE111B4181F300BFD076 /* Info.plist */,
+			);
+			path = QLWindowsExecutable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F264CE051B4181F300BFD076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F264CE071B4181F300BFD076 /* QLWindowsExecutable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F264CE141B4181F300BFD076 /* Build configuration list for PBXNativeTarget "QLWindowsExecutable" */;
+			buildPhases = (
+				F264CE031B4181F300BFD076 /* Sources */,
+				F264CE041B4181F300BFD076 /* Frameworks */,
+				F264CE051B4181F300BFD076 /* Headers */,
+				F264CE061B4181F300BFD076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLWindowsExecutable;
+			productName = QLWindowsExecutable;
+			productReference = F264CE081B4181F300BFD076 /* QLWindowsExecutable.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F264CDFF1B4181F300BFD076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Robbert Brandsma";
+				TargetAttributes = {
+					F264CE071B4181F300BFD076 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F264CE021B4181F300BFD076 /* Build configuration list for PBXProject "QLWindowsExecutable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F264CDFE1B4181F300BFD076;
+			productRefGroup = F264CE091B4181F300BFD076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F264CE071B4181F300BFD076 /* QLWindowsExecutable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F264CE061B4181F300BFD076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F264CE031B4181F300BFD076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.c in Sources */,
+				F264CE0E1B4181F300BFD076 /* GeneratePreviewForURL.c in Sources */,
+				F264CE101B4181F300BFD076 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F264CE121B4181F300BFD076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F264CE131B4181F300BFD076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F264CE151B4181F300BFD076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLWindowsExecutable/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbertbrandsma.QLWindowsExecutable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		F264CE161B4181F300BFD076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLWindowsExecutable/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbertbrandsma.QLWindowsExecutable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F264CE021B4181F300BFD076 /* Build configuration list for PBXProject "QLWindowsExecutable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264CE121B4181F300BFD076 /* Debug */,
+				F264CE131B4181F300BFD076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F264CE141B4181F300BFD076 /* Build configuration list for PBXNativeTarget "QLWindowsExecutable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F264CE151B4181F300BFD076 /* Debug */,
+				F264CE161B4181F300BFD076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F264CDFF1B4181F300BFD076 /* Project object */;
+}
