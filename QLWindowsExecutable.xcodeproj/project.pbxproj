@@ -15,6 +15,8 @@
 		F264CE1D1B4190DA00BFD076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE1C1B4190DA00BFD076 /* Cocoa.framework */; };
 		F264CE1F1B4190DF00BFD076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE1E1B4190DF00BFD076 /* Foundation.framework */; };
 		F264CE211B41916100BFD076 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE201B41916100BFD076 /* CoreServices.framework */; };
+		F264CE261B419D2400BFD076 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F264CE251B419D2400BFD076 /* README.md */; };
+		F264CE281B419D6E00BFD076 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F264CE271B419D6E00BFD076 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F264CE1C1B4190DA00BFD076 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F264CE1E1B4190DF00BFD076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F264CE201B41916100BFD076 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		F264CE251B419D2400BFD076 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F264CE271B419D6E00BFD076 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +53,8 @@
 		F264CDFE1B4181F300BFD076 = {
 			isa = PBXGroup;
 			children = (
-				F264CE201B41916100BFD076 /* CoreServices.framework */,
-				F264CE1E1B4190DF00BFD076 /* Foundation.framework */,
-				F264CE1C1B4190DA00BFD076 /* Cocoa.framework */,
-				F264CE1A1B4190D300BFD076 /* QuickLook.framework */,
+				F264CE271B419D6E00BFD076 /* screenshot.png */,
+				F264CE251B419D2400BFD076 /* README.md */,
 				F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */,
 				F264CE091B4181F300BFD076 /* Products */,
 			);
@@ -69,6 +71,7 @@
 		F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */ = {
 			isa = PBXGroup;
 			children = (
+				F264CE221B419CB200BFD076 /* External Frameworks */,
 				F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.m */,
 				F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */,
 				F264CE0F1B4181F300BFD076 /* main.c */,
@@ -77,6 +80,17 @@
 				F264CE171B41829C00BFD076 /* QLWindowsExecutable-Bridging-Header.h */,
 			);
 			path = QLWindowsExecutable;
+			sourceTree = "<group>";
+		};
+		F264CE221B419CB200BFD076 /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F264CE201B41916100BFD076 /* CoreServices.framework */,
+				F264CE1E1B4190DF00BFD076 /* Foundation.framework */,
+				F264CE1C1B4190DA00BFD076 /* Cocoa.framework */,
+				F264CE1A1B4190D300BFD076 /* QuickLook.framework */,
+			);
+			name = "External Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F264CE281B419D6E00BFD076 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +174,7 @@
 			files = (
 				F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.m in Sources */,
 				F264CE191B41829C00BFD076 /* GenerateThumbnailForURL.swift in Sources */,
+				F264CE261B419D2400BFD076 /* README.md in Sources */,
 				F264CE0E1B4181F300BFD076 /* GeneratePreviewForURL.c in Sources */,
 				F264CE101B4181F300BFD076 /* main.c in Sources */,
 			);

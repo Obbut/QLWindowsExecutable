@@ -57,7 +57,7 @@
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-t ~/Downloads/SteamSetup.exe"
+            argument = "-t &lt;&lt;INSERT A PATH HERE&gt;&gt;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
