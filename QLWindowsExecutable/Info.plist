@@ -11,7 +11,7 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
+				<string>com.microsoft.windows-executable</string>
 			</array>
 		</dict>
 	</array>
@@ -50,7 +50,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 Robbert Brandsma. All rights reserved.</string>
 	<key>QLNeedsToBeRunInMainThread</key>
-	<false/>
+	<true/>
 	<key>QLPreviewHeight</key>
 	<real>600</real>
 	<key>QLPreviewWidth</key>

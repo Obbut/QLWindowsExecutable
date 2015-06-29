@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */; };
+		F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.m */; };
 		F264CE0E1B4181F300BFD076 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */; };
 		F264CE101B4181F300BFD076 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F264CE0F1B4181F300BFD076 /* main.c */; };
+		F264CE191B41829C00BFD076 /* GenerateThumbnailForURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264CE181B41829C00BFD076 /* GenerateThumbnailForURL.swift */; };
+		F264CE1B1B4190D300BFD076 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE1A1B4190D300BFD076 /* QuickLook.framework */; };
+		F264CE1D1B4190DA00BFD076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE1C1B4190DA00BFD076 /* Cocoa.framework */; };
+		F264CE1F1B4190DF00BFD076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE1E1B4190DF00BFD076 /* Foundation.framework */; };
+		F264CE211B41916100BFD076 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F264CE201B41916100BFD076 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F264CE081B4181F300BFD076 /* QLWindowsExecutable.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLWindowsExecutable.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
 		F264CE0F1B4181F300BFD076 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F264CE111B4181F300BFD076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F264CE171B41829C00BFD076 /* QLWindowsExecutable-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLWindowsExecutable-Bridging-Header.h"; sourceTree = "<group>"; };
+		F264CE181B41829C00BFD076 /* GenerateThumbnailForURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateThumbnailForURL.swift; sourceTree = "<group>"; };
+		F264CE1A1B4190D300BFD076 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		F264CE1C1B4190DA00BFD076 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F264CE1E1B4190DF00BFD076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F264CE201B41916100BFD076 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +36,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F264CE211B41916100BFD076 /* CoreServices.framework in Frameworks */,
+				F264CE1F1B4190DF00BFD076 /* Foundation.framework in Frameworks */,
+				F264CE1D1B4190DA00BFD076 /* Cocoa.framework in Frameworks */,
+				F264CE1B1B4190D300BFD076 /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +49,10 @@
 		F264CDFE1B4181F300BFD076 = {
 			isa = PBXGroup;
 			children = (
+				F264CE201B41916100BFD076 /* CoreServices.framework */,
+				F264CE1E1B4190DF00BFD076 /* Foundation.framework */,
+				F264CE1C1B4190DA00BFD076 /* Cocoa.framework */,
+				F264CE1A1B4190D300BFD076 /* QuickLook.framework */,
 				F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */,
 				F264CE091B4181F300BFD076 /* Products */,
 			);
@@ -50,10 +69,12 @@
 		F264CE0A1B4181F300BFD076 /* QLWindowsExecutable */ = {
 			isa = PBXGroup;
 			children = (
-				F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.c */,
+				F264CE0B1B4181F300BFD076 /* GenerateThumbnailForURL.m */,
 				F264CE0D1B4181F300BFD076 /* GeneratePreviewForURL.c */,
 				F264CE0F1B4181F300BFD076 /* main.c */,
 				F264CE111B4181F300BFD076 /* Info.plist */,
+				F264CE181B41829C00BFD076 /* GenerateThumbnailForURL.swift */,
+				F264CE171B41829C00BFD076 /* QLWindowsExecutable-Bridging-Header.h */,
 			);
 			path = QLWindowsExecutable;
 			sourceTree = "<group>";
@@ -95,6 +116,7 @@
 		F264CDFF1B4181F300BFD076 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Robbert Brandsma";
 				TargetAttributes = {
@@ -135,7 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.c in Sources */,
+				F264CE0C1B4181F300BFD076 /* GenerateThumbnailForURL.m in Sources */,
+				F264CE191B41829C00BFD076 /* GenerateThumbnailForURL.swift in Sources */,
 				F264CE0E1B4181F300BFD076 /* GeneratePreviewForURL.c in Sources */,
 				F264CE101B4181F300BFD076 /* main.c in Sources */,
 			);
@@ -224,11 +247,16 @@
 		F264CE151B4181F300BFD076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = QLWindowsExecutable/Info.plist;
-				INSTALL_PATH = /Library/QuickLook;
+				INSTALL_PATH = $HOME/Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbertbrandsma.QLWindowsExecutable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QLWindowsExecutable/QLWindowsExecutable-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -236,11 +264,15 @@
 		F264CE161B4181F300BFD076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = QLWindowsExecutable/Info.plist;
-				INSTALL_PATH = /Library/QuickLook;
+				INSTALL_PATH = $HOME/Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbertbrandsma.QLWindowsExecutable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QLWindowsExecutable/QLWindowsExecutable-Bridging-Header.h";
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Release;
